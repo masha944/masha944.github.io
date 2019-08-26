@@ -1,0 +1,418 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+     /*background: #FFF;*/
+	 background-image: url("images/nsk27_p.jpg");
+     color: #000;
+     font-family: Arial, sans-serif;
+     font-size: 14px;
+	 background-repeat: no-repeat;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+	background-attachment: fixed;
+		 
+}
+/*--------------------------социальные сети--------------*/
+.off {
+  display: none;
+}
+#inst{
+	position:absolute;
+	margin-left:-150px;
+	float:left;
+	}
+/*----------------------------------------------------------*/
+.background {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-radius: 2px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/*-----------------шапка------------------*/
+#header {
+  /*float: left;*/
+  width: 100%;
+  height: 95px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  position: relative;
+  margin-bottom: 77px;
+}
+#header::before {
+  content: "";
+  left: 0;
+  top: 0;
+  
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+#in1 {
+  width: 100%;
+  height:110px;
+  background-color: black;
+  position: relative;
+  z-index: 10;
+  left: 0;
+  top: -1px;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  opacity: 0.7;
+}
+
+#img{
+	/*width:156px;
+	height:108px;*/
+	position:absolute;
+	margin-top:5px;
+	
+	}
+	
+	#rihgt{
+	float:left;
+	width:10%;
+	
+	}
+#left{
+	float:right;
+	width:95%;
+	}
+#h2{
+	font-size: 36px;
+	padding:0;
+	margin:0;
+	color:#FFFFFF;
+}
+/*---------------------------------------*/
+
+/*---------------------------меню---------------------*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Lora);
+body {margin:0;}
+h2 {
+  font-family: monospace;
+  color: #606060;
+}
+ul {
+  list-style: none; 
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+}
+i {
+  margin-right: 10px;
+}
+nav {
+  display: block;
+  margin: 0 auto 30px;
+  
+}
+.one ul {
+  padding: 1em 0;
+  background: rgb(91,90,90);
+background: radial-gradient(circle, rgba(91,90,90,1) 0%, rgba(66,65,65,0.8743872549019608) 70%, rgba(24,23,22,0.6783088235294117) 100%);
+   /*background: rgb(102,102,102);
+background: radial-gradient(circle, rgba(102,102,102,1) 20%, rgba(85,85,85,0.8743872549019608) 60%, rgba(24,23,22,0.6783088235294117) 100%);
+ */ /*background: #000000;*/
+}
+.one a {
+  padding: 1em;
+  background: rgba(177, 152, 145, .3);
+  border-right: 1px solid #b19891;
+  color: #ffffff;
+}
+.one a:hover {background: #b19891;}
+.one li {
+  display: inline;
+}
+/*------------------------------------------------------*/
+#main1 {
+  float: left;
+  width: 60%;
+  height: 280px;
+  padding:0;
+  position: relative;
+  margin-top: 27px;
+}
+#main1::before {
+  content: "";
+  left: 0;
+  top: 0;
+  
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+#main {
+  float: left;
+  width: 60%;
+  height: 587px;
+  padding:0;
+  position: relative;
+ 
+}
+#main::before {
+  content: "";
+  left: 0;
+  top: 0;
+  
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+#in {
+  width: 100%;
+  height:60px;
+  background-color: black;
+  position: relative;
+  z-index: 10;
+   left: 0;
+  top: -1px;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  opacity: 0.5;
+}
+
+
+
+#content {
+  float: right;
+     width: 35%;
+  height: 280px;
+  padding:0;
+  position: relative;
+ 
+}
+#content::before {
+  content: "";
+  left: 0;
+  top: 0;
+  
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+
+#content1 {
+  float: right;
+     width: 35%;
+  height: 280px;
+  padding:0;
+  position: relative;
+  margin-top: 27px;
+ 
+}
+#content1::before {
+  content: "";
+  left: 0;
+  top: 0;
+  
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+
+
+
+
+/*#header {
+     background: #000000;
+	 opacity: 0.7; 
+     width: 100%;
+     height: 160px;
+	 padding-top: 10px;
+	 padding-bottom: 20px;
+	 
+	 margin-bottom: 27px;
+}*/
+
+
+
+#container {
+     color:#FFFFFF;
+     margin: auto auto;
+     text-align: center;
+     width: 80%;
+     height: 100%;
+	 position: relative;
+	 
+}
+ 
+
+
+
+ 
+#clear {
+     clear: both;
+}
+
+
+
+#vk_groups{
+	position:absolute;
+	
+	
+}
+/*-------------------кнопка-------*/
+
+
+button {
+    height: 38px;
+	width:90px;
+	border: none;
+	
+background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(130,137,143,0.8127626050420168) 60%, rgba(24,23,22,0.865983893557423) 100%);
+	color: #000000;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	/*box-shadow: inset 0 0 0 3px #525252;*/
+}
+button:hover {
+	background: rgba(0,0,0,0);
+	color: #f5f5f5;
+	box-shadow: inset 0 0 0 3px #82898f;
+}
+
+/*-------------------------------*/
+.container {
+  text-align: right;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-height: 80px;
+  
+}
+
+ul.submenu {
+  background-color: #212121;
+  width:100%;  
+  border-radius: 5px;
+  display: inline-block;
+  padding: 4px 0px;
+  margin: 0;
+  overflow: hidden;
+}
+ul.submenu li {
+  display: inline-block;
+}
+ul.submenu li a i.fa {
+  padding:10px;
+        display:inline-block;
+        border:1px solid transparent;
+        color:#ccc;
+        height:30px;
+        width:30px;
+        border-radius:50px;
+        margin:10px;
+        text-align:center;
+        line-height:30px;
+        position: relative;
+        z-index:2;
+}
+ul.submenu li a i.fa::after {
+  content: "";
+  height: 0%;
+  width: 0%;
+  position: absolute;
+  top: -500%;
+  bottom: -500%;
+  left: -500%;
+  right: -500%;
+  margin: auto;
+  border: 0px solid transparent;
+  border-radius: 200px;
+  opacity: 0;
+  z-index: -1;
+  transition: all ease 0.5s;
+}
+ul.submenu li a:hover i.fa::before {
+  color: #fff;
+}
+ul.submenu li a:hover i.fa-vk::after {
+  height: 200%;
+  width: 200%;
+  background-color: #3b5998;
+  border-radius: 0px;
+  opacity: 1;
+}
+ul.submenu li a:hover i.fa-twitter::after {
+  height: 200%;
+  width: 200%;
+  background-color: #1dcaff;
+  border-radius: 0px;
+  opacity: 1;
+}
+ul.submenu li a:hover i.fa-google-plus::after {
+  height: 200%;
+  width: 200%;
+  background-color: #d34836;
+  border-radius: 0px;
+  opacity: 1;
+}
+ul.submenu li a:hover i.fa-instagram::after {
+  height: 200%;
+  width: 200%;
+  background-color: #8a3ab9;
+  border-radius: 0px;
+  opacity: 1;
+}
+
+i.fa-youtube {
+  font-size: 50px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background-color: #e62117;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+
+
+
+
+
+
+#footer {
+    background: #000000;
+	 opacity: 0.5; /* Задаем прозрачность */
+	width: 100%;
+	height: 100px;
+	margin-top: 27px;
+}
